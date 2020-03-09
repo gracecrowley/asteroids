@@ -31,7 +31,7 @@ function init() {
 }
 
 function draw() {
-    if (ps.length < 10) {
+    if (ps.length < 8) {
         let p = {
             x : width,
             y : getRandomNumber(0, height),
